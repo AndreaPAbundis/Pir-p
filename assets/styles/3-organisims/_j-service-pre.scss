@@ -1,0 +1,30 @@
+.content-all-service-pre{
+  margin-top: $space-3;
+  padding-top: $space-3;
+  padding-bottom: $space-3;
+  width: 100%;
+  display: inline-flex;
+  flex-wrap: wrap;
+	justify-content: space-around;
+  background-color: #d3d3d3;
+  .title{
+    width: 100%;
+    text-align: center;
+  }
+  .thumbnail-img-content{
+    .image-container{
+      width: 300px;
+    }
+  }
+  .description-ser{
+    text-align: center;
+    align-items: center;
+    h2{
+      text-transform: capitalize;
+    }
+    button{
+      width: 40%;
+      background-color: #4682B4;
+    }
+  }
+}

@@ -106,7 +106,8 @@
   font-weight: 100;
   font-style: normal; }
 html, body {
-  height: 100%; }
+  height: 100%;
+  background-color: #ffffff; }
 
 body {
   font-family: "RobotoMono";
@@ -674,10 +675,13 @@ img {
     width: 100%; }
     .header-container .navbar .space-options {
       padding-left: 16px;
-      padding-right: 16px;
+      padding-right: 0;
       font-weight: bold; }
     .header-container .navbar .space-options:hover {
       color: #6495ED; }
+  @media screen and (max-width: 992px) {
+    .header-container {
+      height: 60px; } }
 
 .nav-collapse {
   top: -81px; }
@@ -713,6 +717,7 @@ header.main-nav {
     margin: 0; }
   header.main-nav ul {
     display: flex;
+    justify-content: space-around;
     list-style: none;
     margin-bottom: 0; }
     header.main-nav ul a {
@@ -857,63 +862,38 @@ header.main-nav.responsive {
   left: 8px; }
 
 footer {
-  background-color: #595959; }
+  width: 100%;
+  height: 240px;
+  background-color: #4682B4; }
   footer .j-wrap {
+    max-width: 1232px;
+    margin: 0 auto;
+    padding-left: 24px;
+    padding-right: 24px;
+    box-sizing: border-box;
+    display: flex;
     flex-direction: column; }
-    footer .j-wrap .contact-ways {
-      display: flex;
-      justify-content: space-around;
-      align-items: flex-start;
-      margin-top: 64px; }
-      footer .j-wrap .contact-ways h3 {
-        color: #FFF; }
-      footer .j-wrap .contact-ways hr {
-        width: 80px;
-        margin-bottom: 32px; }
-      footer .j-wrap .contact-ways p {
-        color: #FFF; }
-      footer .j-wrap .contact-ways a {
-        color: #FFF; }
-        footer .j-wrap .contact-ways a:hover {
-          color: #cccccc; }
-      @media screen and (max-width: 768px) {
-        footer .j-wrap .contact-ways {
-          flex-direction: column; } }
-      footer .j-wrap .contact-ways .footer-unit {
-        width: 33.33%; }
-        @media screen and (max-width: 768px) {
-          footer .j-wrap .contact-ways .footer-unit {
-            width: 100%; } }
-      footer .j-wrap .contact-ways .social-networks {
-        text-align: center; }
-        footer .j-wrap .contact-ways .social-networks ul {
-          display: flex;
-          max-width: 160px;
-          margin: 0 auto;
-          list-style: none;
-          justify-content: space-around;
-          margin-top: 32px;
-          padding: 0; }
-          footer .j-wrap .contact-ways .social-networks ul li a img {
-            height: 32px; }
-          footer .j-wrap .contact-ways .social-networks ul li a:hover {
-            opacity: .75; }
-      footer .j-wrap .contact-ways .footer-contact {
-        text-align: center; }
-        footer .j-wrap .contact-ways .footer-contact p a:first-child {
-          font-size: 24px; }
-      footer .j-wrap .contact-ways .location {
-        text-align: center; }
-    footer .j-wrap .footer-bottom {
-      text-align: center;
-      margin: 64px 0; }
-      footer .j-wrap .footer-bottom svg {
-        height: 56px;
-        fill: #fff;
-        margin-bottom: 16px; }
-      footer .j-wrap .footer-bottom p {
-        color: #FFF;
-        margin-bottom: 0; }
+    footer .j-wrap .container-footer {
+      width: 100%; }
+      footer .j-wrap .container-footer .contact-ways {
+        width: 60%;
+        display: block;
+        justify-content: space-around;
+        align-items: flex-start;
+        margin-top: 32px; }
+        footer .j-wrap .container-footer .contact-ways .datos-dir h2 {
+          text-transform: capitalize;
+          color: #ffffff;
+          font-weight: bold; }
+        footer .j-wrap .container-footer .contact-ways .datos-dir p {
+          color: #ffffff;
+          font-weight: bold; }
+        footer .j-wrap .container-footer .contact-ways .redes-logos img {
+          width: 45px;
+          height: 45px; }
+          footer .j-wrap .container-footer .contact-ways .redes-logos img .thumbnail-im {
+            width: 30px;
+            height: 30px; }
 
 .main-contact-content {
   display: flex;
@@ -968,5 +948,95 @@ footer {
         @media screen and (max-width: 600px) {
           .main-contact-content .information-content .p-img-left img {
             margin-right: 0; } }
+
+.quienes-content {
+  margin-top: 8px;
+  padding-left: 24px;
+  width: 100%;
+  display: inline-flex; }
+  .quienes-content .description {
+    width: 60%; }
+    .quienes-content .description p {
+      padding-right: 16px; }
+  .quienes-content .img-content {
+    width: 40%;
+    margin-top: 16px; }
+
+.thumbnail-img-content {
+  padding-left: 16px;
+  padding-right: 16px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center; }
+  .thumbnail-img-content .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 400px; }
+    .thumbnail-img-content .image-container img {
+      max-height: 100%;
+      margin-bottom: 0; }
+
+@media screen and (max-width: 992px) {
+  .quienes-content .img-content {
+    margin-top: 48px; } }
+@media screen and (max-width: 768px) {
+  .quienes-content {
+    display: block; }
+    .quienes-content .img-content {
+      margin-top: 8px; }
+    .quienes-content .description {
+      width: 100%; }
+    .quienes-content .img-content {
+      width: 100%; } }
+.content-all-service-pre {
+  margin-top: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  width: 100%;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #d3d3d3; }
+  .content-all-service-pre .title {
+    width: 100%;
+    text-align: center; }
+  .content-all-service-pre .thumbnail-img-content .image-container {
+    width: 300px; }
+  .content-all-service-pre .description-ser {
+    text-align: center;
+    align-items: center; }
+    .content-all-service-pre .description-ser h2 {
+      text-transform: capitalize; }
+    .content-all-service-pre .description-ser button {
+      width: 40%;
+      background-color: #4682B4; }
+
+.listing-products {
+  width: 100%;
+  margin-top: 24px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  .listing-products h1 {
+    width: 100%;
+    text-transform: capitalize;
+    text-align: center; }
+  .listing-products .thumbnail-img-content .image-container {
+    width: 300px; }
+  .listing-products .description-p {
+    text-align: center;
+    align-items: center; }
+    .listing-products .description-p h2 {
+      text-transform: capitalize; }
+    .listing-products .description-p button {
+      width: 40%;
+      background-color: #6c6c6d; }
 
 /*# sourceMappingURL=main.css.map */

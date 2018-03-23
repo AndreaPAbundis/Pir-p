@@ -10,12 +10,15 @@
     width: 100%;
     .space-options{
       padding-left: $space-2;
-      padding-right: $space-2;
+      padding-right: 0;
       font-weight: bold;
     }
     .space-options:hover{
       color: #6495ED;
     }
+  }
+  @media screen and (max-width: 992px){
+    height: 60px;
   }
 }
 //For the Fixed on scroll up and hidden on scroll down
@@ -57,6 +60,7 @@ header.main-nav {
   button{margin: 0;}
   ul {
     display: flex;
+    justify-content: space-around;
     list-style: none;
     margin-bottom: 0;
     a {
