@@ -21,10 +21,10 @@
     <header class="main-nav">
       <nav role="navigation" class="navbar">
         <ul>
-          <a href="">
+          <a href="index.php">
             <li class="space-options"><img src="https://dummyimage.com/200x50/000/fff"></li>
           </a>
-          <a href="">
+          <a href="nosotros.php">
             <li class="space-options">Nosotros |</li>
           </a>
           <a href="">

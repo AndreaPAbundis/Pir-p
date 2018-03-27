@@ -1,0 +1,16 @@
+.title-nosotros{
+  margin-top: $space-3;
+  text-align: center;
+}
+.nosotros{
+  display: inline-flex;
+  .description-nosotros{
+    width: 60%;
+    h2{
+      text-transform: capitalize;
+    }
+  }
+  .img-content-nosotros{
+    width: 40%;
+  }
+}

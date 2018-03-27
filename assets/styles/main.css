@@ -235,6 +235,7 @@ body {
 .j-workspace {
   box-sizing: border-box; }
   .j-workspace .j-wrap {
+    min-height: calc(100vh - (263px + 85));
     max-width: 1232px;
     margin: 0 auto;
     padding-left: 16px;
@@ -1038,5 +1039,18 @@ footer {
     .listing-products .description-p button {
       width: 40%;
       background-color: #6c6c6d; }
+
+.title-nosotros {
+  margin-top: 24px;
+  text-align: center; }
+
+.nosotros {
+  display: inline-flex; }
+  .nosotros .description-nosotros {
+    width: 60%; }
+    .nosotros .description-nosotros h2 {
+      text-transform: capitalize; }
+  .nosotros .img-content-nosotros {
+    width: 40%; }
 
 /*# sourceMappingURL=main.css.map */
