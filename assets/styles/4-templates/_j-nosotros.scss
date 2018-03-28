@@ -1,3 +1,7 @@
+body{
+  margin-left: 0;
+  margin-right: 0;
+}
 .title-nosotros{
   margin-top: $space-3;
   text-align: center;
@@ -13,4 +17,52 @@
   .img-content-nosotros{
     width: 40%;
   }
+}
+.slogan-content{
+  width: 100%;
+  margin-top: $space-3;
+  margin-bottom: $space-3;
+  background-color: #f5f5f5;
+  padding: 0;
+  height: 150px;
+  text-align: center;
+  h1{
+    text-transform: capitalize;
+  }
+}
+.proposito-content{
+  width: 100%;
+  display: inline-flex;
+  .img-proposito{
+    width: 50%;
+    padding-top: $space-4;
+  }
+  .description-pro{
+    width: 50%;
+  h2{
+    text-transform: capitalize;
+  }
+ }
+}
+.mercado-content{
+  width: 100%;
+  display: inline-flex;
+  .description-mer{
+    width: 50%;
+  h2{
+    text-transform: capitalize;
+  }
+ }
+  .img-mer{
+    width: 50%;
+    padding-top: $space-4;
+  }
+}
+.content-others{
+  width: 100%;
+  margin-top: $space-3;
+  margin-bottom: $space-3;
+  background-color: #f5f5f5;
+  text-align: center;
+  height: 180px;
 }
