@@ -1,0 +1,40 @@
+body{
+  margin-left: 0;
+  margin-right: 0;
+}
+.product-content{
+  margin-top: $space-5;
+  width: 100%;
+  display: inline-flex;
+  .img-all{
+    width: 60%;
+    .imagenes{
+      width: 100%;
+      display: inline-flex;
+      .img-pequenas{
+        width: 35%;
+        margin-top: $space-5;
+        .thumbnail-img-content{
+          padding: 0;
+          margin: $space-base;
+          .image-container {
+            width: 120px;
+            height: 100px;
+          }
+        }
+      }
+      .img-principal{
+        width:60%;
+        .thumbnail-img-content{
+          .image-container {
+            width: 400px;
+            height: 400px;
+          }
+        }
+      }
+    }
+   }
+   .desc-all{
+     width: 40%;
+   }
+}

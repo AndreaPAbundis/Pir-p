@@ -15,39 +15,26 @@
 </head>
 
 <body>
-  <!--  Header  -->
-
-  <div class="header-container">
-    <header class="main-nav">
-      <nav role="navigation" class="navbar">
-        <ul>
-          <a href="index.php">
-            <li class="space-options"><img src="https://dummyimage.com/200x50/000/fff"></li>
-          </a>
-          <a href="nosotros.php">
-            <li class="space-options">Nosotros |</li>
-          </a>
-          <a href="servicios.php">
-            <li class="space-options">Servicios |</li>
-          </a>
-          <a href="eventos.php">
-            <li class="space-options">Eventos |</li>
-          </a>
-          <a href="productos.php">
-            <li class="space-options">Productos |</li>
-          </a>
-          <a href="contacto.php">
-            <li class="space-options">Contacto |</li>
-          </a>
-        </ul>
-      </nav>
-      <div id="nav-icon">
-        <span></span>
-        <span></span>
-        <span></span>
+  <!--  Footer  -->
+  <footer>
+    <div class="j-wrap">
+      <div class="container-footer">
+        <div class="contact-ways">
+          <img src="https://dummyimage.com/200x50/000/fff">
+          <div class="datos-dir">
+            <h2>Dirección</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+          </div>
+          <div class="redes-logos">
+            <img class="thumbnail-im" src="assets/images/Logos/logo-facebook.png">
+            <img class="thumbnail-im" src="assets/images/Logos/logo-google.png">
+            <img src="assets/images/Logos/logo-insta.png">
+            <div>
+        </div>
+        <div class="cl-left"></div>
       </div>
-    </header>
-  </div>
+    </div>
+  </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="assets/scripts/ripple.js"></script>
   <script src="assets/scripts/header.js"></script>

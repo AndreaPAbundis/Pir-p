@@ -10,7 +10,7 @@ $correo = $_POST["correo"];
 $telefono = $_POST["telefono"];
 $asunto = $_POST["opcion"];
 $message = $_POST["mensaje"];
-$admin = 'kikinbmk10@gmail.com';  //cambiar aqui al correo del admin
+$admin = 'lizbethabundisp@gmail.com';  //cambiar aqui al correo del admin
 
 //lo siguiente es un layout de un mail de recibido en el cual se utilizo la herramienta MJML
 //Para mas informacion sobre esta herramienta ir a https://mjml.io/documentation/
@@ -73,7 +73,7 @@ $mensaje ='<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-micro
 </style>
 </head>
 <body style="background: #fffafa;">
-  
+
   <div class="mj-container" style="background-color:#fffafa;"><!--[if mso | IE]>
       <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="600" align="center" style="width:600px;">
         <tr>
@@ -159,7 +159,7 @@ $mensaje ='<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-micro
 </html>' ;
 
 
- 
+
 
 
 $mensaje = wordwrap($mensaje, 70, "\r\n");

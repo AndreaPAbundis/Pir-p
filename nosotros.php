@@ -74,25 +74,7 @@
     <h1>Lo que nos diferencia</h1>
     <p>Lorem ipsum dolor sit amet</p>
   </div>
-  <footer>
-    <div class="j-wrap">
-      <div class="container-footer">
-        <div class="contact-ways">
-          <img src="https://dummyimage.com/200x50/000/fff">
-          <div class="datos-dir">
-            <h2>Dirección</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-          </div>
-          <div class="redes-logos">
-            <img class="thumbnail-im" src="assets/images/Logos/logo-facebook.png">
-            <img class="thumbnail-im" src="assets/images/Logos/logo-google.png">
-            <img src="assets/images/Logos/logo-insta.png">
-            <div>
-        </div>
-        <div class="cl-left"></div>
-      </div>
-    </div>
-  </footer>
+  <?php include('footer.php'); ?>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="assets/scripts/ripple.js"></script>

@@ -1,0 +1,10 @@
+.eventos{
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  video{
+    width: 300px;
+    margin: $space-base;
+    background-color: $black;
+  }
+}

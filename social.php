@@ -10,44 +10,33 @@
   <!-- [#TODO] Dont forget to update the FAVICON IMAGES in the next route -->
   <!-- <link rel="icon" type="image/png" href="assets/images/favicon-180x180.png" sizes="128x128"> -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css" integrity="sha256-K3Njjl2oe0gjRteXwX01fQD5fkk9JFFBdUHy/h28ggY=" crossorigin="anonymous" rel="stylesheet">
-  <link href="./assets/styles/main.css" rel="stylesheet">
+  <link href="assets/styles/main.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/swiper/swiper/dist/css/swiper.min.css">
 </head>
 
 <body>
   <!--  Header  -->
-
-  <div class="header-container">
-    <header class="main-nav">
-      <nav role="navigation" class="navbar">
-        <ul>
-          <a href="index.php">
-            <li class="space-options"><img src="https://dummyimage.com/200x50/000/fff"></li>
-          </a>
-          <a href="nosotros.php">
-            <li class="space-options">Nosotros |</li>
-          </a>
-          <a href="servicios.php">
-            <li class="space-options">Servicios |</li>
-          </a>
-          <a href="eventos.php">
-            <li class="space-options">Eventos |</li>
-          </a>
-          <a href="productos.php">
-            <li class="space-options">Productos |</li>
-          </a>
-          <a href="contacto.php">
-            <li class="space-options">Contacto |</li>
-          </a>
-        </ul>
-      </nav>
-      <div id="nav-icon">
-        <span></span>
-        <span></span>
-        <span></span>
+<?php include('header.php'); ?>
+  <!--  Main content -->
+  <main class="j-workspace ">
+    <div class="j-wrap">
+      <div class="empresarial-content">
+      <div class="img-content-empresarial">
+        <div class="thumbnail-img-content">
+          <div class="image-container">
+            <img src="https://dummyimage.com/400x250/000/fff" alt="">
+          </div>
+        </div>
+    </div>
+        <div class="description-empresarial">
+          <h1 class="empresarial-title">Social</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <h4>Tipos</h4>
+        </div>
       </div>
-    </header>
-  </div>
+    </div>
+  </main>
+<?php include('footer.php'); ?>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="assets/scripts/ripple.js"></script>
   <script src="assets/scripts/header.js"></script>

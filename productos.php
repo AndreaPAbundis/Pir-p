@@ -17,77 +17,7 @@
 <body>
   <!--  Header  -->
 <?php include('header.php'); ?>
-  <!--  Hero -->
-  <!--<div class="hero-image">
-    <div class="hero-text">
-      <h1 style="font-size:50px">I am John Doe</h1>
-      <p>And I'm a Photographer</p>
-      <button class="ripple">Hire me</button>
-    </div>
-  </div>-->
-  <!--Slider-->
-<?php include('Slider.php'); ?>
   <!--  Main content -->
-  <main class="j-workspace ">
-    <div class="j-wrap">
-      <div class="quienes-content">
-        <div class="description">
-          <h1>¿Quienes somos?</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-        <div class="img-content">
-          <div class="thumbnail-img-content">
-            <div class="image-container">
-              <img src="https://dummyimage.com/400x250/000/fff" alt="">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="content-all-service-pre">
-      <h1 class="title">Servicios</h1>
-      <div class="s-empresarial">
-        <div class="thumbnail-img-content">
-          <div class="image-container">
-            <img src="https://dummyimage.com/400x250/000/fff" alt="">
-          </div>
-        </div>
-        <div class="description-ser">
-          <h2>Empresarial</h2>
-          <a href="empresarial.php">
-            <button>Ver más</button>
-          </a>
-        </div>
-      </div>
-      <div class="s-social">
-        <div class="thumbnail-img-content">
-          <div class="image-container">
-            <img src="https://dummyimage.com/400x250/000/fff" alt="">
-          </div>
-        </div>
-        <div class="description-ser">
-          <h2>Social</h2>
-          <a href="social.php">
-            <button>Ver más</button>
-          </a>
-        </div>
-      </div>
-      <div class="s-patronal">
-        <div class="thumbnail-img-content">
-          <div class="image-container">
-            <img src="https://dummyimage.com/400x250/000/fff" alt="">
-          </div>
-        </div>
-        <div class="description-ser">
-          <h2>Patronal</h2>
-          <a href="patronal.php">
-            <button>Ver más</button>
-          </a>
-        </div>
-      </div>
-    </div>
-  </main>
   <main class="j-workspace ">
     <div class="j-wrap">
       <div class="listing-products">
@@ -171,9 +101,10 @@
           </div>
         </div>
       </div>
-    <div>
+    </div>
   </main>
   <?php include('footer.php'); ?>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="assets/scripts/ripple.js"></script>
   <script src="assets/scripts/header.js"></script>
