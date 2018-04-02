@@ -1,0 +1,24 @@
+.title-servicios{
+  margin-top: $space-5;
+  text-align: center;
+}
+.servicios-content{
+  width: 100%;
+  display: inline-flex;
+  margin-bottom: $space-5;
+  .servicio-description{
+    width: 33.33%;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    h2{
+        text-transform: capitalize;
+    }
+    button{
+      width: 30%;
+      text-transform: capitalize;
+      font-size: $space-2;
+    }
+  }
+}

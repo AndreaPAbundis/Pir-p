@@ -24,7 +24,7 @@
     }
     .swiper-container {
       width: 100%;
-      height: 50%;
+      height: 100%;
       margin-left: auto;
       margin-right: auto;
     }

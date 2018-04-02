@@ -235,7 +235,7 @@ body {
 .j-workspace {
   box-sizing: border-box; }
   .j-workspace .j-wrap {
-    min-height: calc(100vh - (263px + 85));
+    min-height: calc(100vh - (250px + 85px));
     max-width: 1232px;
     margin: 0 auto;
     padding-left: 16px;
@@ -1039,6 +1039,27 @@ footer {
     .listing-products .description-p button {
       width: 40%;
       background-color: #6c6c6d; }
+
+.title-servicios {
+  margin-top: 40px;
+  text-align: center; }
+
+.servicios-content {
+  width: 100%;
+  display: inline-flex;
+  margin-bottom: 40px; }
+  .servicios-content .servicio-description {
+    width: 33.33%;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+    .servicios-content .servicio-description h2 {
+      text-transform: capitalize; }
+    .servicios-content .servicio-description button {
+      width: 30%;
+      text-transform: capitalize;
+      font-size: 16px; }
 
 body {
   margin-left: 0;

@@ -3,7 +3,7 @@
   // won't use "wrap wider";
   box-sizing: border-box;
   .j-wrap {
-    min-height: calc(100vh - (263px + 85));
+    min-height: calc(100vh - (250px + 85px));
     max-width: $max-width-screen;
     margin: 0 auto;
     padding-left: 16px;

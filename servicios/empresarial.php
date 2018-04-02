@@ -20,19 +20,19 @@
   <!--  Main content -->
   <main class="j-workspace ">
     <div class="j-wrap">
-      <h1 class="title-nosotros">Nosotros</h1>
-      <div class="nosotros">
-        <div class="description-nosotros">
-          <h2>¿Quienes somos?</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-        <div class="img-content-nosotros">
-          <div class="thumbnail-img-content">
-            <div class="image-container">
-              <img src="https://dummyimage.com/400x250/000/fff" alt="">
-            </div>
+      <div class="empresarial-content">
+      <div class="img-content-empresarial">
+        <div class="thumbnail-img-content">
+          <div class="image-container">
+            <img src="https://dummyimage.com/400x250/000/fff" alt="">
           </div>
-      </div>
+        </div>
+    </div>
+        <div class="description-empresarial">
+          <h1 class="empresarial-title">Empresarial</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <h4>Tipos</h4>
+        </div>
       </div>
     </div>
   </main>

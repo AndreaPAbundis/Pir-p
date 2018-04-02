@@ -16,38 +16,7 @@
 
 <body>
   <!--  Header  -->
-
-  <div class="header-container">
-    <header class="main-nav">
-      <nav role="navigation" class="navbar">
-        <ul>
-          <a href="index.php">
-            <li class="space-options"><img src="https://dummyimage.com/200x50/000/fff"></li>
-          </a>
-          <a href="nosotros.php">
-            <li class="space-options">Nosotros |</li>
-          </a>
-          <a href="">
-            <li class="space-options">Servicios |</li>
-          </a>
-          <a href="">
-            <li class="space-options">Eventos |</li>
-          </a>
-          <a href="">
-            <li class="space-options">Productos |</li>
-          </a>
-          <a href="">
-            <li class="space-options">Contacto |</li>
-          </a>
-        </ul>
-      </nav>
-      <div id="nav-icon">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </header>
-  </div>
+<?php include('header.php'); ?>
   <!--  Hero -->
   <!--<div class="hero-image">
     <div class="hero-text">
